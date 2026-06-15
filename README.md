@@ -16,7 +16,13 @@
 
 데이터는 `src/generate_dataset.py`로 생성한 합성 이미지 데이터입니다. 각 이미지는 64x64 PNG이며, 배경 노이즈, 위치 변화, 크기 변화, 회전, 밝기 변화를 넣어 단순 암기가 아니라 이미지 패턴을 학습하도록 구성했습니다.
 
-생성 후 데이터는 `data/sign_shapes/` 아래에 저장됩니다.
+GitHub 업로드용 폴더에는 파일 개수를 줄이기 위해 각 클래스별 샘플 이미지 10장씩만 포함했습니다. 전체 실험 데이터 480장은 아래 명령으로 언제든지 다시 생성할 수 있습니다.
+
+```bash
+python src/generate_dataset.py
+```
+
+생성 후 전체 데이터는 `data/sign_shapes/` 아래에 저장됩니다.
 
 ```text
 data/sign_shapes/
