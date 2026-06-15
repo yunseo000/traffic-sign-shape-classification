@@ -1,0 +1,29 @@
+{
+  "train_accuracy": 1.0,
+  "test_accuracy": 0.9416666666666667,
+  "class_accuracy": {
+    "circle": 0.9333333333333333,
+    "triangle": 0.9487179487179487,
+    "square": 0.9444444444444444
+  },
+  "confusion_matrix": [
+    [
+      42,
+      0,
+      3
+    ],
+    [
+      0,
+      37,
+      2
+    ],
+    [
+      2,
+      0,
+      34
+    ]
+  ],
+  "train_images": 360,
+  "test_images": 120,
+  "final_loss": 0.0932496348757251
+}
